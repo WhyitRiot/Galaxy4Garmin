@@ -2,22 +2,14 @@ import Toybox.Application;
 import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.System;
-import Toybox.Time;
 import Toybox.WatchUi;
+import Toybox.Time;
+import Toybox.Time.Gregorian;
 
-class Galaxy4GarminView extends WatchUi.WatchFace {
-
-    var altTzUTC;
+class Garmin2TimeZonesView extends WatchUi.WatchFace {
 
     function initialize() {
         WatchFace.initialize();
-
-        if (Storage.getValue(2) == null){Storage.setValue(2, [-5, "New York"]);}
-        if (Storage.getValue(3) == null){Storage.setValue(3, [-5, "New York"]);}
-        if (Storage.getValue(4) == null){Storage.setValue(4, [-8, "Seattle"]);}
-        if (Storage.getValue(5) == null){Storage.setValue(5, [9, "Tokyo"]);}
-
-        altTzUTC = Storage.getValue(2);
     }
 
     // Load your resources here
@@ -35,55 +27,80 @@ class Galaxy4GarminView extends WatchUi.WatchFace {
     function onUpdate(dc as Dc) as Void {
 
         // Get the current time and format it correctly
-        var centerline = View.findDrawableById("CenterLabel") as Text;
-        centerline.setText("_________________________________________");
-        var localTime = View.findDrawableById("ZoneLabel") as Text;
-        localTime.setText("Local");
-        var zone2 = View.findDrawableById("Zone2Label") as Text;
-        zone2.setText(altTzUTC[1]);
-
-        var time2 = View.findDrawableById("Time2Label") as Text;
-        var date2 = View.findDrawableById("Date2Label") as Text;
-
         var timeFormat = "$1$:$2$";
         var clockTime = System.getClockTime();
         var hours = clockTime.hour;
+
+         // Time2Label
+        var utcOffset = new Time.Duration(-System.getClockTime().timeZoneOffset);
+        var altTZUTC = getApp().getProperty("UTCOffset") as Number;
+        if (getApp().getProperty("DayLightSavings")){
+            altTZUTC += 1;
+        }
+        var altTzOffset = utcOffset.add(new Time.Duration(Gregorian.SECONDS_PER_HOUR * altTZUTC));
+        var utc = Gregorian.info(Time.now().add(utcOffset), Time.FORMAT_SHORT);
+        var altTz = Gregorian.info(Time.now().add(altTzOffset), Time.FORMAT_SHORT);
+        var altTzDay = Gregorian.info(Time.now().add(altTzOffset), Time.FORMAT_LONG);
+        var altTzHour = altTz.hour;
+        var twelveHour = false;
+        var meridiem = "am";
+
+        if (!System.getDeviceSettings().is24Hour) {
+            if (hours > 12 or altTzHour > 12) {
+                if (hours > 12){
+                    hours = hours - 12;
+                    meridiem = "pm";
+                }
+                if (altTzHour > 12){
+                    altTzHour = altTzHour - 12;
+                    meridiem = "am";
+                }
+                twelveHour = true;
+            }
+        } else {
+            if (getApp().getProperty("UseMilitaryFormat")) {
+                timeFormat = "$1$$2$";
+            }
+            hours = hours.format("%02d");
+            altTzHour = altTzHour.format("%02d");
+        }
+        var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
+        var altTimeString = Lang.format(timeFormat, [altTzHour, clockTime.min.format("%02d")]);
+
+        // Update the view
+
         var gregorianInfo = Gregorian.info(Time.now(), Time.FORMAT_LONG);
         var monthLong = gregorianInfo.month;
         var dayLong = gregorianInfo.day_of_week;
         var hourG = gregorianInfo.hour;
         var dayShort = Gregorian.info(Time.now(), Time.FORMAT_SHORT).day;
-        if (!System.getDeviceSettings().is24Hour) {
-            if (hours > 12) {
-                hours = hours - 12;
-            }
-        } else {
-            if (getApp().getProperty("UseMilitaryFormat")) {
-                timeFormat = "$1$$2$";
-                hours = hours.format("%02d");
-            }
-        }
 
-        // Set UTC
-        var utcOffset = new Time.Duration(-System.getClockTime().timeZoneOffset);
-        var altTzOffset = utcOffset.add(new Time.Duration(Gregorian.SECONDS_PER_HOUR * altTzUTC[0]));
-        var utc = Gregorian.info(Time.now().add(utcOffset), Time.FORMAT_SHORT);
-        var altTz = Gregorian.info(Time.now().add(altTzOffset), Time.FORMAT_SHORT);
-        var altTzDay = Gregorian.info(Time.now().add(altTzOffset), Time.FORMAT_LONG);
+        // Set the labels and centerline
+        var centerline = View.findDrawableById("CenterLabel") as Text;
+        centerline.setText("_________________________________________");
+        var localTime = View.findDrawableById("ZoneLabel") as Text;
+        localTime.setText("Local");
+        var day = View.findDrawableById("DateLabel") as Text;
 
-        var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
+        day.setColor(getApp().getProperty("ForegroundColor") as Number);
+        day.setText(Lang.format("$1$, $2$ $3$", [dayLong, monthLong, dayShort]));
 
-        // Update the view
+        var zone2 = View.findDrawableById("Zone2Label") as Text;
+        zone2.setText(getApp().getProperty("TimeZone"));
+
+        var time2 = View.findDrawableById("Time2Label") as Text;
+        var date2 = View.findDrawableById("Date2Label") as Text;
+
         var view = View.findDrawableById("TimeLabel") as Text;
         view.setColor(getApp().getProperty("ForegroundColor") as Number);
         view.setText(timeString);
-        var day = View.findDrawableById("DateLabel") as Text;
-        day.setColor(getApp().getProperty("ForegroundColor") as Number);
-        timeString = Lang.format("$1$, $2$ $3$", [dayLong, monthLong, dayShort]);
-        day.setText(timeString);
-        
-        time2.setText(Lang.format("$1$:$2$", [altTz.hour.format("%02d"), clockTime.min.format("%02d")]));
-        date2.setText(Lang.format("$1$, $2$ $3$", [altTzDay.day_of_week, altTzDay.month, altTz.day]));
+
+        view = View.findDrawableById("Time2Label") as Text;
+        view.setColor(getApp().getProperty("ForegroundColor") as Number);
+        view.setText(altTimeString);
+        view = View.findDrawableById("Date2Label") as Text;
+        view.setColor(getApp().getProperty("ForegroundColor") as Number);
+        view.setText(Lang.format("$1$, $2$ $3$", [altTzDay.day_of_week, altTzDay.month, altTz.day]));
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
