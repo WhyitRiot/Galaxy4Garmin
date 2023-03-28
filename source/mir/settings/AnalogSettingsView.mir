@@ -1,0 +1,223 @@
+[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc"; @line = 7; ]
+import Toybox.WatchUi;
+[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc"; @line = 8; ]
+import Toybox.Graphics;
+[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc"; @line = 9; ]
+import Toybox.System;
+[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc"; @line = 10; ]
+import Toybox.Application.Storage;
+[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc"; @line = 12; @position = 4; ]
+var count = 0;
+[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc"; @line = 14; ]
+class AnalogSettingsViewTest extends WatchUi.Menu2{
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc"; @line = 14; ]
+    <init> {
+    }
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc"; @line = 14; ]
+    static
+    <init> {
+    }
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc"; @line = 16; ]
+    function initialize() as Void {
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_16_26_start:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc" 17 8 ]
+        %tmp.2 = getv ? :Menu2;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.4 = null;
+        invoke %tmp.2 %tmp.3(%tmp.4);
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc" 31 4 ]
+        %tmp.6 = getv ? :Menu2;
+        %tmp.7 = getv function %tmp.6 :setTitle;
+        %tmp.8 = "Time Zone";
+        invoke %tmp.6 %tmp.7(%tmp.8);
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc" 32 4 ]
+        %tmp.10 = getv ? :Menu2;
+        %tmp.11 = getv function %tmp.10 :addItem;
+        %tmp.14 = getm $.Toybox.WatchUi;
+        %tmp.15 = getv function ? %tmp.14 :MenuItem;
+        %tmp.16 = "Time Zones";
+        %tmp.17 = null;
+        %tmp.18 = "tz";
+        %tmp.19 = null;
+        %tmp.12 = newc %tmp.15 (%tmp.16, %tmp.17, %tmp.18, %tmp.19);
+        invoke %tmp.10 %tmp.11(%tmp.12);
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_16_26_stop:
+    }
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc"; @line = 37; ]
+    function onSelect(item) {
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_37_25_start:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc" 41 8 ]
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_41_8_if_stmt:
+        %tmp.2 = lgetv %item;
+        %tmp.4 = getv ? :MenuItem;
+        %tmp.5 = isa %tmp.2 %tmp.4;
+        bf %tmp.5 @G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_41_8_if_end;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_41_8_if_true:
+        goto @G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_41_8_if_end;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_41_8_if_end:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc" 45 8 ]
+        %tmp.6 = getm $.Toybox.WatchUi;
+        %tmp.7 = getv function %tmp.6 :requestUpdate;
+        invoke %tmp.6 %tmp.7();
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_37_25_stop:
+    }
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc"; @line = 48; ]
+    function onBack() {
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_48_22_start:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc" 49 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :popView;
+        %tmp.3 = getm $.Toybox.WatchUi;
+        %tmp.4 = getv %tmp.3 :SLIDE_IMMEDIATE;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc" 50 8 ]
+        %tmp.5 = false;
+        ret %tmp.5;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_48_22_stop:
+    }
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc"; @line = 53; ]
+    function onDone() {
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_53_22_start:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc" 54 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :popView;
+        %tmp.3 = getm $.Toybox.WatchUi;
+        %tmp.4 = getv %tmp.3 :SLIDE_BLINK;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_53_22_stop:
+    }
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc"; @line = 57; ]
+    function onWrap(key as WatchUi.Key) {
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_57_40_start:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc" 58 8 ]
+        %tmp.1 = true;
+        ret %tmp.1;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_57_40_stop:
+    }
+}
+[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc"; @line = 64; ]
+class Menu2TestMenu2Delegate extends WatchUi.Menu2InputDelegate{
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc"; @line = 64; ]
+    <init> {
+    }
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc"; @line = 64; ]
+    static
+    <init> {
+    }
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc"; @line = 66; ]
+    function initialize() as Void {
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_66_23_start:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc" 67 8 ]
+        %tmp.2 = getv ? :Menu2InputDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_66_23_stop:
+    }
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc"; @line = 70; ]
+    function onSelect(item) {
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_70_25_start:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc" 72 8 ]
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_72_8_if_stmt:
+        %tmp.1 = lgetv %item;
+        %tmp.2 = getv function %tmp.1 :getId;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = getv function %tmp.3 :equals;
+        %tmp.5 = "tz";
+        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
+        bf %tmp.6 @G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_72_8_if_end;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_72_8_if_true:
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_72_40_start:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc" 75 6 ]
+        [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_72_40_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_72_40_stop" ]
+        %iconMenu.1 = local;
+        %tmp.9 = getm $.Toybox.WatchUi;
+        %tmp.10 = getv function ? %tmp.9 :Menu2;
+        %tmp.11 = newd 1;
+        %tmp.13 = const :title;
+        %tmp.14 = "Time Zones";
+        %tmp.15 = dup %tmp.11;
+        %tmp.16 = aputv %tmp.15 %tmp.13 %tmp.14;
+        %tmp.7 = newc %tmp.10 (%tmp.16);
+        lputv %iconMenu.1 %tmp.7;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc" 78 6 ]
+        %tmp.17 = lgetv %iconMenu.1;
+        %tmp.18 = getv function %tmp.17 :addItem;
+        %tmp.21 = getm $.Toybox.WatchUi;
+        %tmp.22 = getv function ? %tmp.21 :MenuItem;
+        %tmp.23 = "New York";
+        %tmp.24 = "UTC -5";
+        %tmp.25 = getm $.Toybox.Application.Storage;
+        %tmp.26 = getv function %tmp.25 :getValue;
+        %tmp.27 = 3;
+        %tmp.28 = invoke %tmp.25 %tmp.26(%tmp.27);
+        %tmp.29 = newd 1;
+        %tmp.31 = const :alignment;
+        %tmp.32 = getm $.Toybox.WatchUi;
+        %tmp.33 = getv %tmp.32 :MenuItem;
+        %tmp.34 = getv %tmp.33 :MENU_ITEM_LABEL_ALIGN_LEFT;
+        %tmp.35 = dup %tmp.29;
+        %tmp.36 = aputv %tmp.35 %tmp.31 %tmp.34;
+        %tmp.19 = newc %tmp.22 (%tmp.23, %tmp.24, %tmp.28, %tmp.36);
+        invoke %tmp.17 %tmp.18(%tmp.19);
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc" 79 6 ]
+        %tmp.37 = lgetv %iconMenu.1;
+        %tmp.38 = getv function %tmp.37 :addItem;
+        %tmp.41 = getm $.Toybox.WatchUi;
+        %tmp.42 = getv function ? %tmp.41 :MenuItem;
+        %tmp.43 = "Seattle";
+        %tmp.44 = "UTC -8";
+        %tmp.45 = getm $.Toybox.Application.Storage;
+        %tmp.46 = getv function %tmp.45 :getValue;
+        %tmp.47 = 4;
+        %tmp.48 = invoke %tmp.45 %tmp.46(%tmp.47);
+        %tmp.49 = newd 1;
+        %tmp.51 = const :alignment;
+        %tmp.52 = getm $.Toybox.WatchUi;
+        %tmp.53 = getv %tmp.52 :MenuItem;
+        %tmp.54 = getv %tmp.53 :MENU_ITEM_LABEL_ALIGN_LEFT;
+        %tmp.55 = dup %tmp.49;
+        %tmp.56 = aputv %tmp.55 %tmp.51 %tmp.54;
+        %tmp.39 = newc %tmp.42 (%tmp.43, %tmp.44, %tmp.48, %tmp.56);
+        invoke %tmp.37 %tmp.38(%tmp.39);
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc" 80 12 ]
+        %tmp.57 = lgetv %iconMenu.1;
+        %tmp.58 = getv function %tmp.57 :addItem;
+        %tmp.61 = getm $.Toybox.WatchUi;
+        %tmp.62 = getv function ? %tmp.61 :MenuItem;
+        %tmp.63 = "Tokyo";
+        %tmp.64 = "UTC +9";
+        %tmp.65 = getm $.Toybox.Application.Storage;
+        %tmp.66 = getv function %tmp.65 :getValue;
+        %tmp.67 = 5;
+        %tmp.68 = invoke %tmp.65 %tmp.66(%tmp.67);
+        %tmp.69 = newd 1;
+        %tmp.71 = const :alignment;
+        %tmp.72 = getm $.Toybox.WatchUi;
+        %tmp.73 = getv %tmp.72 :MenuItem;
+        %tmp.74 = getv %tmp.73 :MENU_ITEM_LABEL_ALIGN_LEFT;
+        %tmp.75 = dup %tmp.69;
+        %tmp.76 = aputv %tmp.75 %tmp.71 %tmp.74;
+        %tmp.59 = newc %tmp.62 (%tmp.63, %tmp.64, %tmp.68, %tmp.76);
+        invoke %tmp.57 %tmp.58(%tmp.59);
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_72_40_stop:
+        goto @G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_72_8_if_end;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_72_8_if_end:
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_70_25_stop:
+    }
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc"; @line = 140; ]
+    function onBack() {
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_140_22_start:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc" 141 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :popView;
+        %tmp.3 = getm $.Toybox.WatchUi;
+        %tmp.4 = getv %tmp.3 :SLIDE_IMMEDIATE;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc" 142 8 ]
+        ret ?;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_settings_AnalogSettingsView_mc_140_22_stop:
+    }
+}
+[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\settings\AnalogSettingsView.mc"; @line = 7; ]
+<init> {
+}

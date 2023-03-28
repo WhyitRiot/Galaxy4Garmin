@@ -1,0 +1,565 @@
+[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc"; @line = 4; ]
+import Toybox.System;
+[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc"; @line = 5; ]
+import Toybox.Time;
+[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc"; @line = 6; ]
+import Toybox.WatchUi;
+[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc"; @line = 8; ]
+class Galaxy4GarminView extends WatchUi.WatchFace{
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc"; @line = 8; ]
+    <init> {
+    }
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc"; @line = 8; ]
+    static
+    <init> {
+    }
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc"; @line = 10; @position = 8; ]
+    var altTzUTC;
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc"; @line = 12; ]
+    function initialize() as Void {
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_12_26_start:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 13 8 ]
+        %tmp.2 = getv ? :WatchFace;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 15 8 ]
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_15_8_if_stmt:
+        %tmp.5 = getv ? :Storage;
+        %tmp.6 = getv function %tmp.5 :getValue;
+        %tmp.7 = 2;
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        %tmp.9 = null;
+        %tmp.10 = eq %tmp.8 %tmp.9;
+        bf %tmp.10 @G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_15_8_if_end;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_15_8_if_true:
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_15_40_start:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 15 41 ]
+        %tmp.12 = getv ? :Storage;
+        %tmp.13 = getv function %tmp.12 :setValue;
+        %tmp.14 = 2;
+        %tmp.15 = newa 2;
+        %tmp.16 = 5;
+        %tmp.17 = sub 0 %tmp.16;
+        %tmp.18 = dup %tmp.15;
+        %tmp.19 = aputv %tmp.18 0 %tmp.17;
+        %tmp.20 = "New York";
+        %tmp.21 = dup %tmp.19;
+        %tmp.22 = aputv %tmp.21 1 %tmp.20;
+        invoke %tmp.12 %tmp.13(%tmp.14, %tmp.22);
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_15_40_stop:
+        goto @G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_15_8_if_end;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_15_8_if_end:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 16 8 ]
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_16_8_if_stmt:
+        %tmp.24 = getv ? :Storage;
+        %tmp.25 = getv function %tmp.24 :getValue;
+        %tmp.26 = 3;
+        %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
+        %tmp.28 = null;
+        %tmp.29 = eq %tmp.27 %tmp.28;
+        bf %tmp.29 @G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_16_8_if_end;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_16_8_if_true:
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_16_40_start:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 16 41 ]
+        %tmp.31 = getv ? :Storage;
+        %tmp.32 = getv function %tmp.31 :setValue;
+        %tmp.33 = 3;
+        %tmp.34 = newa 2;
+        %tmp.35 = 5;
+        %tmp.36 = sub 0 %tmp.35;
+        %tmp.37 = dup %tmp.34;
+        %tmp.38 = aputv %tmp.37 0 %tmp.36;
+        %tmp.39 = "New York";
+        %tmp.40 = dup %tmp.38;
+        %tmp.41 = aputv %tmp.40 1 %tmp.39;
+        invoke %tmp.31 %tmp.32(%tmp.33, %tmp.41);
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_16_40_stop:
+        goto @G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_16_8_if_end;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_16_8_if_end:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 17 8 ]
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_17_8_if_stmt:
+        %tmp.43 = getv ? :Storage;
+        %tmp.44 = getv function %tmp.43 :getValue;
+        %tmp.45 = 4;
+        %tmp.46 = invoke %tmp.43 %tmp.44(%tmp.45);
+        %tmp.47 = null;
+        %tmp.48 = eq %tmp.46 %tmp.47;
+        bf %tmp.48 @G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_17_8_if_end;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_17_8_if_true:
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_17_40_start:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 17 41 ]
+        %tmp.50 = getv ? :Storage;
+        %tmp.51 = getv function %tmp.50 :setValue;
+        %tmp.52 = 4;
+        %tmp.53 = newa 2;
+        %tmp.54 = 8;
+        %tmp.55 = sub 0 %tmp.54;
+        %tmp.56 = dup %tmp.53;
+        %tmp.57 = aputv %tmp.56 0 %tmp.55;
+        %tmp.58 = "Seattle";
+        %tmp.59 = dup %tmp.57;
+        %tmp.60 = aputv %tmp.59 1 %tmp.58;
+        invoke %tmp.50 %tmp.51(%tmp.52, %tmp.60);
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_17_40_stop:
+        goto @G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_17_8_if_end;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_17_8_if_end:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 18 8 ]
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_18_8_if_stmt:
+        %tmp.62 = getv ? :Storage;
+        %tmp.63 = getv function %tmp.62 :getValue;
+        %tmp.64 = 5;
+        %tmp.65 = invoke %tmp.62 %tmp.63(%tmp.64);
+        %tmp.66 = null;
+        %tmp.67 = eq %tmp.65 %tmp.66;
+        bf %tmp.67 @G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_18_8_if_end;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_18_8_if_true:
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_18_40_start:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 18 41 ]
+        %tmp.69 = getv ? :Storage;
+        %tmp.70 = getv function %tmp.69 :setValue;
+        %tmp.71 = 5;
+        %tmp.72 = newa 2;
+        %tmp.73 = 9;
+        %tmp.74 = dup %tmp.72;
+        %tmp.75 = aputv %tmp.74 0 %tmp.73;
+        %tmp.76 = "Tokyo";
+        %tmp.77 = dup %tmp.75;
+        %tmp.78 = aputv %tmp.77 1 %tmp.76;
+        invoke %tmp.69 %tmp.70(%tmp.71, %tmp.78);
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_18_40_stop:
+        goto @G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_18_8_if_end;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_18_8_if_end:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 20 8 ]
+        %tmp.80 = getv ? :Storage;
+        %tmp.81 = getv function %tmp.80 :getValue;
+        %tmp.82 = 2;
+        %tmp.83 = invoke %tmp.80 %tmp.81(%tmp.82);
+        putv self :altTzUTC %tmp.83;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_12_26_stop:
+    }
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc"; @line = 24; ]
+    function onLayout(dc as Dc) as Void {
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_24_40_start:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 25 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Layouts;
+        %tmp.6 = getv function %tmp.5 :WatchFace;
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
+        invoke %tmp.1 %tmp.2(%tmp.9);
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_24_40_stop:
+    }
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc"; @line = 31; ]
+    function onShow() as Void {
+    }
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc"; @line = 35; ]
+    function onUpdate(dc as Dc) as Void {
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_start:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 38 8 ]
+        [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_stop" ]
+        %centerline.1 = local;
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :findDrawableById;
+        %tmp.4 = "CenterLabel";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        %tmp.6 = as %tmp.5 Text;
+        lputv %centerline.1 %tmp.6;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 39 8 ]
+        %tmp.7 = lgetv %centerline.1;
+        %tmp.8 = getv function %tmp.7 :setText;
+        %tmp.9 = "_________________________________________";
+        invoke %tmp.7 %tmp.8(%tmp.9);
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 40 8 ]
+        [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_stop" ]
+        %localTime.2 = local;
+        %tmp.11 = getv ? :View;
+        %tmp.12 = getv function %tmp.11 :findDrawableById;
+        %tmp.13 = "ZoneLabel";
+        %tmp.14 = invoke %tmp.11 %tmp.12(%tmp.13);
+        %tmp.15 = as %tmp.14 Text;
+        lputv %localTime.2 %tmp.15;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 41 8 ]
+        %tmp.16 = lgetv %localTime.2;
+        %tmp.17 = getv function %tmp.16 :setText;
+        %tmp.18 = "Local";
+        invoke %tmp.16 %tmp.17(%tmp.18);
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 42 8 ]
+        [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_stop" ]
+        %zone2.3 = local;
+        %tmp.20 = getv ? :View;
+        %tmp.21 = getv function %tmp.20 :findDrawableById;
+        %tmp.22 = "Zone2Label";
+        %tmp.23 = invoke %tmp.20 %tmp.21(%tmp.22);
+        %tmp.24 = as %tmp.23 Text;
+        lputv %zone2.3 %tmp.24;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 43 8 ]
+        %tmp.25 = lgetv %zone2.3;
+        %tmp.26 = getv function %tmp.25 :setText;
+        %tmp.28 = getv ? :altTzUTC;
+        %tmp.29 = 1;
+        %tmp.30 = agetv %tmp.28 %tmp.29;
+        invoke %tmp.25 %tmp.26(%tmp.30);
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 45 8 ]
+        [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_stop" ]
+        %time2.4 = local;
+        %tmp.32 = getv ? :View;
+        %tmp.33 = getv function %tmp.32 :findDrawableById;
+        %tmp.34 = "Time2Label";
+        %tmp.35 = invoke %tmp.32 %tmp.33(%tmp.34);
+        %tmp.36 = as %tmp.35 Text;
+        lputv %time2.4 %tmp.36;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 46 8 ]
+        [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_stop" ]
+        %date2.5 = local;
+        %tmp.38 = getv ? :View;
+        %tmp.39 = getv function %tmp.38 :findDrawableById;
+        %tmp.40 = "Date2Label";
+        %tmp.41 = invoke %tmp.38 %tmp.39(%tmp.40);
+        %tmp.42 = as %tmp.41 Text;
+        lputv %date2.5 %tmp.42;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 48 8 ]
+        [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_stop" ]
+        %timeFormat.6 = local;
+        %tmp.43 = "$1$:$2$";
+        lputv %timeFormat.6 %tmp.43;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 49 8 ]
+        [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_stop" ]
+        %clockTime.7 = local;
+        %tmp.44 = getm $.Toybox.System;
+        %tmp.45 = getv function %tmp.44 :getClockTime;
+        %tmp.46 = invoke %tmp.44 %tmp.45();
+        lputv %clockTime.7 %tmp.46;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 50 8 ]
+        [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_stop" ]
+        %hours.8 = local;
+        %tmp.47 = lgetv %clockTime.7;
+        %tmp.48 = getv %tmp.47 :hour;
+        lputv %hours.8 %tmp.48;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 51 8 ]
+        [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_stop" ]
+        %gregorianInfo.9 = local;
+        %tmp.50 = getv ? :Gregorian;
+        %tmp.51 = getv function %tmp.50 :info;
+        %tmp.52 = getm $.Toybox.Time;
+        %tmp.53 = getv function %tmp.52 :now;
+        %tmp.54 = invoke %tmp.52 %tmp.53();
+        %tmp.55 = getm $.Toybox.Time;
+        %tmp.56 = getv %tmp.55 :FORMAT_LONG;
+        %tmp.57 = invoke %tmp.50 %tmp.51(%tmp.54, %tmp.56);
+        lputv %gregorianInfo.9 %tmp.57;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 52 8 ]
+        [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_stop" ]
+        %monthLong.10 = local;
+        %tmp.58 = lgetv %gregorianInfo.9;
+        %tmp.59 = getv %tmp.58 :month;
+        lputv %monthLong.10 %tmp.59;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 53 8 ]
+        [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_stop" ]
+        %dayLong.11 = local;
+        %tmp.60 = lgetv %gregorianInfo.9;
+        %tmp.61 = getv %tmp.60 :day_of_week;
+        lputv %dayLong.11 %tmp.61;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 54 8 ]
+        [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_stop" ]
+        %hourG.12 = local;
+        %tmp.62 = lgetv %gregorianInfo.9;
+        %tmp.63 = getv %tmp.62 :hour;
+        lputv %hourG.12 %tmp.63;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 55 8 ]
+        [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_stop" ]
+        %dayShort.13 = local;
+        %tmp.65 = getv ? :Gregorian;
+        %tmp.66 = getv function %tmp.65 :info;
+        %tmp.67 = getm $.Toybox.Time;
+        %tmp.68 = getv function %tmp.67 :now;
+        %tmp.69 = invoke %tmp.67 %tmp.68();
+        %tmp.70 = getm $.Toybox.Time;
+        %tmp.71 = getv %tmp.70 :FORMAT_SHORT;
+        %tmp.72 = invoke %tmp.65 %tmp.66(%tmp.69, %tmp.71);
+        %tmp.73 = getv %tmp.72 :day;
+        lputv %dayShort.13 %tmp.73;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 56 8 ]
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_56_8_if_stmt:
+        %tmp.74 = getm $.Toybox.System;
+        %tmp.75 = getv function %tmp.74 :getDeviceSettings;
+        %tmp.76 = invoke %tmp.74 %tmp.75();
+        %tmp.77 = getv %tmp.76 :is24Hour;
+        %tmp.78 = not %tmp.77;
+        bf %tmp.78 @G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_56_8_if_false;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_56_8_if_true:
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_56_50_start:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 57 12 ]
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_57_12_if_stmt:
+        %tmp.80 = lgetv %hours.8;
+        %tmp.81 = 12;
+        %tmp.82 = gt %tmp.80 %tmp.81;
+        bf %tmp.82 @G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_57_12_if_end;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_57_12_if_true:
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_57_28_start:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 58 16 ]
+        %tmp.84 = lgetv %hours.8;
+        %tmp.85 = 12;
+        %tmp.86 = sub %tmp.84 %tmp.85;
+        lputv %hours.8 %tmp.86;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_57_28_stop:
+        goto @G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_57_12_if_end;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_57_12_if_end:
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_56_50_stop:
+        goto @G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_56_8_if_end;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_56_8_if_false:
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_60_15_start:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 61 12 ]
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_61_12_if_stmt:
+        %tmp.87 = self;
+        %tmp.88 = getv function %tmp.87 :getApp;
+        %tmp.89 = invoke %tmp.87 %tmp.88();
+        %tmp.90 = getv function %tmp.89 :getProperty;
+        %tmp.91 = "UseMilitaryFormat";
+        %tmp.92 = invoke %tmp.89 %tmp.90(%tmp.91);
+        bf %tmp.92 @G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_61_12_if_end;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_61_12_if_true:
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_61_59_start:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 62 16 ]
+        %tmp.93 = "$1$$2$";
+        lputv %timeFormat.6 %tmp.93;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 63 16 ]
+        %tmp.94 = lgetv %hours.8;
+        %tmp.95 = getv function %tmp.94 :format;
+        %tmp.96 = "%02d";
+        %tmp.97 = invoke %tmp.94 %tmp.95(%tmp.96);
+        lputv %hours.8 %tmp.97;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_61_59_stop:
+        goto @G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_61_12_if_end;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_61_12_if_end:
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_60_15_stop:
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_56_8_if_end:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 68 8 ]
+        [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_stop" ]
+        %utcOffset.14 = local;
+        %tmp.100 = getm $.Toybox.Time;
+        %tmp.101 = getv function ? %tmp.100 :Duration;
+        %tmp.102 = getm $.Toybox.System;
+        %tmp.103 = getv function %tmp.102 :getClockTime;
+        %tmp.104 = invoke %tmp.102 %tmp.103();
+        %tmp.105 = getv %tmp.104 :timeZoneOffset;
+        %tmp.106 = sub 0 %tmp.105;
+        %tmp.98 = newc %tmp.101 (%tmp.106);
+        lputv %utcOffset.14 %tmp.98;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 69 8 ]
+        [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_stop" ]
+        %altTzOffset.15 = local;
+        %tmp.107 = lgetv %utcOffset.14;
+        %tmp.108 = getv function %tmp.107 :add;
+        %tmp.111 = getm $.Toybox.Time;
+        %tmp.112 = getv function ? %tmp.111 :Duration;
+        %tmp.114 = getv ? :Gregorian;
+        %tmp.115 = getv %tmp.114 :SECONDS_PER_HOUR;
+        %tmp.117 = getv ? :altTzUTC;
+        %tmp.118 = 0;
+        %tmp.119 = agetv %tmp.117 %tmp.118;
+        %tmp.120 = mul %tmp.115 %tmp.119;
+        %tmp.109 = newc %tmp.112 (%tmp.120);
+        %tmp.121 = invoke %tmp.107 %tmp.108(%tmp.109);
+        lputv %altTzOffset.15 %tmp.121;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 70 8 ]
+        [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_stop" ]
+        %utc.16 = local;
+        %tmp.123 = getv ? :Gregorian;
+        %tmp.124 = getv function %tmp.123 :info;
+        %tmp.125 = getm $.Toybox.Time;
+        %tmp.126 = getv function %tmp.125 :now;
+        %tmp.127 = invoke %tmp.125 %tmp.126();
+        %tmp.128 = getv function %tmp.127 :add;
+        %tmp.130 = lgetv %utcOffset.14;
+        %tmp.131 = invoke %tmp.127 %tmp.128(%tmp.130);
+        %tmp.132 = getm $.Toybox.Time;
+        %tmp.133 = getv %tmp.132 :FORMAT_SHORT;
+        %tmp.134 = invoke %tmp.123 %tmp.124(%tmp.131, %tmp.133);
+        lputv %utc.16 %tmp.134;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 71 8 ]
+        [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_stop" ]
+        %altTz.17 = local;
+        %tmp.136 = getv ? :Gregorian;
+        %tmp.137 = getv function %tmp.136 :info;
+        %tmp.138 = getm $.Toybox.Time;
+        %tmp.139 = getv function %tmp.138 :now;
+        %tmp.140 = invoke %tmp.138 %tmp.139();
+        %tmp.141 = getv function %tmp.140 :add;
+        %tmp.143 = lgetv %altTzOffset.15;
+        %tmp.144 = invoke %tmp.140 %tmp.141(%tmp.143);
+        %tmp.145 = getm $.Toybox.Time;
+        %tmp.146 = getv %tmp.145 :FORMAT_SHORT;
+        %tmp.147 = invoke %tmp.136 %tmp.137(%tmp.144, %tmp.146);
+        lputv %altTz.17 %tmp.147;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 72 8 ]
+        [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_stop" ]
+        %altTzDay.18 = local;
+        %tmp.149 = getv ? :Gregorian;
+        %tmp.150 = getv function %tmp.149 :info;
+        %tmp.151 = getm $.Toybox.Time;
+        %tmp.152 = getv function %tmp.151 :now;
+        %tmp.153 = invoke %tmp.151 %tmp.152();
+        %tmp.154 = getv function %tmp.153 :add;
+        %tmp.156 = lgetv %altTzOffset.15;
+        %tmp.157 = invoke %tmp.153 %tmp.154(%tmp.156);
+        %tmp.158 = getm $.Toybox.Time;
+        %tmp.159 = getv %tmp.158 :FORMAT_LONG;
+        %tmp.160 = invoke %tmp.149 %tmp.150(%tmp.157, %tmp.159);
+        lputv %altTzDay.18 %tmp.160;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 74 8 ]
+        [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_stop" ]
+        %timeString.19 = local;
+        %tmp.161 = getm $.Toybox.Lang;
+        %tmp.162 = getv function %tmp.161 :format;
+        %tmp.164 = lgetv %timeFormat.6;
+        %tmp.165 = newa 2;
+        %tmp.167 = lgetv %hours.8;
+        %tmp.168 = dup %tmp.165;
+        %tmp.169 = aputv %tmp.168 0 %tmp.167;
+        %tmp.170 = lgetv %clockTime.7;
+        %tmp.171 = getv %tmp.170 :min;
+        %tmp.172 = getv function %tmp.171 :format;
+        %tmp.173 = "%02d";
+        %tmp.174 = invoke %tmp.171 %tmp.172(%tmp.173);
+        %tmp.175 = dup %tmp.169;
+        %tmp.176 = aputv %tmp.175 1 %tmp.174;
+        %tmp.177 = invoke %tmp.161 %tmp.162(%tmp.164, %tmp.176);
+        lputv %timeString.19 %tmp.177;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 77 8 ]
+        [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_stop" ]
+        %view.20 = local;
+        %tmp.179 = getv ? :View;
+        %tmp.180 = getv function %tmp.179 :findDrawableById;
+        %tmp.181 = "TimeLabel";
+        %tmp.182 = invoke %tmp.179 %tmp.180(%tmp.181);
+        %tmp.183 = as %tmp.182 Text;
+        lputv %view.20 %tmp.183;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 78 8 ]
+        %tmp.184 = lgetv %view.20;
+        %tmp.185 = getv function %tmp.184 :setColor;
+        %tmp.186 = self;
+        %tmp.187 = getv function %tmp.186 :getApp;
+        %tmp.188 = invoke %tmp.186 %tmp.187();
+        %tmp.189 = getv function %tmp.188 :getProperty;
+        %tmp.190 = "ForegroundColor";
+        %tmp.191 = invoke %tmp.188 %tmp.189(%tmp.190);
+        %tmp.192 = as %tmp.191 Number;
+        invoke %tmp.184 %tmp.185(%tmp.192);
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 79 8 ]
+        %tmp.193 = lgetv %view.20;
+        %tmp.194 = getv function %tmp.193 :setText;
+        %tmp.196 = lgetv %timeString.19;
+        invoke %tmp.193 %tmp.194(%tmp.196);
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 80 8 ]
+        [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_stop" ]
+        %day.21 = local;
+        %tmp.198 = getv ? :View;
+        %tmp.199 = getv function %tmp.198 :findDrawableById;
+        %tmp.200 = "DateLabel";
+        %tmp.201 = invoke %tmp.198 %tmp.199(%tmp.200);
+        %tmp.202 = as %tmp.201 Text;
+        lputv %day.21 %tmp.202;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 81 8 ]
+        %tmp.203 = lgetv %day.21;
+        %tmp.204 = getv function %tmp.203 :setColor;
+        %tmp.205 = self;
+        %tmp.206 = getv function %tmp.205 :getApp;
+        %tmp.207 = invoke %tmp.205 %tmp.206();
+        %tmp.208 = getv function %tmp.207 :getProperty;
+        %tmp.209 = "ForegroundColor";
+        %tmp.210 = invoke %tmp.207 %tmp.208(%tmp.209);
+        %tmp.211 = as %tmp.210 Number;
+        invoke %tmp.203 %tmp.204(%tmp.211);
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 82 8 ]
+        %tmp.212 = getm $.Toybox.Lang;
+        %tmp.213 = getv function %tmp.212 :format;
+        %tmp.214 = "$1$, $2$ $3$";
+        %tmp.215 = newa 3;
+        %tmp.217 = lgetv %dayLong.11;
+        %tmp.218 = dup %tmp.215;
+        %tmp.219 = aputv %tmp.218 0 %tmp.217;
+        %tmp.221 = lgetv %monthLong.10;
+        %tmp.222 = dup %tmp.219;
+        %tmp.223 = aputv %tmp.222 1 %tmp.221;
+        %tmp.225 = lgetv %dayShort.13;
+        %tmp.226 = dup %tmp.223;
+        %tmp.227 = aputv %tmp.226 2 %tmp.225;
+        %tmp.228 = invoke %tmp.212 %tmp.213(%tmp.214, %tmp.227);
+        lputv %timeString.19 %tmp.228;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 83 8 ]
+        %tmp.229 = lgetv %day.21;
+        %tmp.230 = getv function %tmp.229 :setText;
+        %tmp.232 = lgetv %timeString.19;
+        invoke %tmp.229 %tmp.230(%tmp.232);
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 85 8 ]
+        %tmp.233 = lgetv %time2.4;
+        %tmp.234 = getv function %tmp.233 :setText;
+        %tmp.235 = getm $.Toybox.Lang;
+        %tmp.236 = getv function %tmp.235 :format;
+        %tmp.237 = "$1$:$2$";
+        %tmp.238 = newa 2;
+        %tmp.239 = lgetv %altTz.17;
+        %tmp.240 = getv %tmp.239 :hour;
+        %tmp.241 = getv function %tmp.240 :format;
+        %tmp.242 = "%02d";
+        %tmp.243 = invoke %tmp.240 %tmp.241(%tmp.242);
+        %tmp.244 = dup %tmp.238;
+        %tmp.245 = aputv %tmp.244 0 %tmp.243;
+        %tmp.246 = lgetv %clockTime.7;
+        %tmp.247 = getv %tmp.246 :min;
+        %tmp.248 = getv function %tmp.247 :format;
+        %tmp.249 = "%02d";
+        %tmp.250 = invoke %tmp.247 %tmp.248(%tmp.249);
+        %tmp.251 = dup %tmp.245;
+        %tmp.252 = aputv %tmp.251 1 %tmp.250;
+        %tmp.253 = invoke %tmp.235 %tmp.236(%tmp.237, %tmp.252);
+        invoke %tmp.233 %tmp.234(%tmp.253);
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 86 8 ]
+        %tmp.254 = lgetv %date2.5;
+        %tmp.255 = getv function %tmp.254 :setText;
+        %tmp.256 = getm $.Toybox.Lang;
+        %tmp.257 = getv function %tmp.256 :format;
+        %tmp.258 = "$1$, $2$ $3$";
+        %tmp.259 = newa 3;
+        %tmp.260 = lgetv %altTzDay.18;
+        %tmp.261 = getv %tmp.260 :day_of_week;
+        %tmp.262 = dup %tmp.259;
+        %tmp.263 = aputv %tmp.262 0 %tmp.261;
+        %tmp.264 = lgetv %altTzDay.18;
+        %tmp.265 = getv %tmp.264 :month;
+        %tmp.266 = dup %tmp.263;
+        %tmp.267 = aputv %tmp.266 1 %tmp.265;
+        %tmp.268 = lgetv %altTz.17;
+        %tmp.269 = getv %tmp.268 :day;
+        %tmp.270 = dup %tmp.267;
+        %tmp.271 = aputv %tmp.270 2 %tmp.269;
+        %tmp.272 = invoke %tmp.256 %tmp.257(%tmp.258, %tmp.271);
+        invoke %tmp.254 %tmp.255(%tmp.272);
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc" 89 8 ]
+        %tmp.274 = getv ? :View;
+        %tmp.275 = getv function %tmp.274 :onUpdate;
+        %tmp.277 = lgetv %dc;
+        invoke %tmp.274 %tmp.275(%tmp.277);
+G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_source_Galaxy4GarminView_mc_35_40_stop:
+    }
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc"; @line = 95; ]
+    function onHide() as Void {
+    }
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc"; @line = 99; ]
+    function onExitSleep() as Void {
+    }
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc"; @line = 103; ]
+    function onEnterSleep() as Void {
+    }
+}
+[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\source\Galaxy4GarminView.mc"; @line = 1; ]
+<init> {
+}

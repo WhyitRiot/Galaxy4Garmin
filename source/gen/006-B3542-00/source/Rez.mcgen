@@ -1,0 +1,55 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var LauncherIcon as Symbol;
+    } // Drawables
+
+    module Fonts {
+    } // Fonts
+
+    module JsonData {
+    } // JsonData
+
+    module Layouts {
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_custom_drawable_99818473410739877039 = new Background();
+
+            var rez_cmp_local_text_ZoneLabel = new WatchUi.Text({:identifier=>"ZoneLabel", :color=>Graphics.COLOR_GREEN, :locX=>(240 * 0.5), :locY=>5, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :color=>Graphics.COLOR_WHITE, :locX=>(240 * 0.5), :locY=>17, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SYSTEM_NUMBER_HOT});
+
+            var rez_cmp_local_text_DateLabel = new WatchUi.Text({:identifier=>"DateLabel", :color=>Graphics.COLOR_WHITE, :locX=>(240 * 0.5), :locY=>95, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_XTINY});
+
+            var rez_cmp_local_text_CenterLabel = new WatchUi.Text({:identifier=>"CenterLabel", :color=>Graphics.COLOR_WHITE, :locX=>(240 * 0.5), :locY=>104, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_XTINY});
+
+            var rez_cmp_local_text_Zone2Label = new WatchUi.Text({:identifier=>"Zone2Label", :color=>Graphics.COLOR_BLUE, :locX=>(240 * 0.5), :locY=>125, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_Time2Label = new WatchUi.Text({:identifier=>"Time2Label", :color=>Graphics.COLOR_WHITE, :locX=>(240 * 0.5), :locY=>135, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SYSTEM_NUMBER_HOT});
+
+            var rez_cmp_local_text_Date2Label = new WatchUi.Text({:identifier=>"Date2Label", :color=>Graphics.COLOR_WHITE, :locX=>(240 * 0.5), :locY=>210, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_XTINY});
+
+            return [rez_cmp_local_custom_drawable_99818473410739877039, rez_cmp_local_text_ZoneLabel, rez_cmp_local_text_TimeLabel, rez_cmp_local_text_DateLabel, rez_cmp_local_text_CenterLabel, rez_cmp_local_text_Zone2Label, rez_cmp_local_text_Time2Label, rez_cmp_local_text_Date2Label] as Array<WatchUi.Drawable>;
+        }
+    } // Layouts
+
+    module Menus {
+    } // Menus
+
+    module Strings {
+        (:initialized) var ColorLightGray as Symbol;
+        (:initialized) var ColorBlue as Symbol;
+        (:initialized) var ColorRed as Symbol;
+        (:initialized) var ForegroundColorTitle as Symbol;
+        (:initialized) var BackgroundColorTitle as Symbol;
+        (:initialized) var ColorDarkGray as Symbol;
+        (:initialized) var MilitaryFormatTitle as Symbol;
+        (:initialized) var ColorBlack as Symbol;
+        (:initialized) var ColorWhite as Symbol;
+        (:initialized) var AppName as Symbol;
+    } // Strings
+} // Rez

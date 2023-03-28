@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\manifest.xml"/>
+<pcToLineNum>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminApp.mc" id="1" lineNum="31" parent="globals" pc="268435457" symbol="getApp"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminApp.mc" id="1" lineNum="32" parent="globals" pc="268435467" symbol="getApp"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminBackground.mc" id="2" lineNum="6" parent="globals/Background" pc="268435483" symbol="&lt;init&gt;"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminBackground.mc" id="3" lineNum="8" parent="globals/Background" pc="268435502" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminBackground.mc" id="3" lineNum="9" parent="globals/Background" pc="268435506" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminBackground.mc" id="3" lineNum="13" parent="globals/Background" pc="268435527" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminBackground.mc" id="4" lineNum="16" parent="globals/Background" pc="268435548" symbol="draw"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminBackground.mc" id="4" lineNum="18" parent="globals/Background" pc="268435550" symbol="draw"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminBackground.mc" id="4" lineNum="19" parent="globals/Background" pc="268435592" symbol="draw"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="5" lineNum="64" parent="globals/Menu2TestMenu2Delegate" pc="268435605" symbol="&lt;init&gt;"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="6" lineNum="140" parent="globals/Menu2TestMenu2Delegate" pc="268435624" symbol="onBack"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="6" lineNum="141" parent="globals/Menu2TestMenu2Delegate" pc="268435626" symbol="onBack"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="6" lineNum="142" parent="globals/Menu2TestMenu2Delegate" pc="268435647" symbol="onBack"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="7" lineNum="66" parent="globals/Menu2TestMenu2Delegate" pc="268435648" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="7" lineNum="67" parent="globals/Menu2TestMenu2Delegate" pc="268435650" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="8" lineNum="70" parent="globals/Menu2TestMenu2Delegate" pc="268435669" symbol="onSelect"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="8" lineNum="72" parent="globals/Menu2TestMenu2Delegate" pc="268435673" symbol="onSelect"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="8" lineNum="75" parent="globals/Menu2TestMenu2Delegate" pc="268435701" symbol="onSelect"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="8" lineNum="78" parent="globals/Menu2TestMenu2Delegate" pc="268435748" symbol="onSelect"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="8" lineNum="79" parent="globals/Menu2TestMenu2Delegate" pc="268435835" symbol="onSelect"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="8" lineNum="80" parent="globals/Menu2TestMenu2Delegate" pc="268435922" symbol="onSelect"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminApp.mc" id="9" lineNum="5" parent="globals/Galaxy4GarminApp" pc="268436010" symbol="&lt;init&gt;"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminApp.mc" id="11" lineNum="25" parent="globals/Galaxy4GarminApp" pc="268436029" symbol="onSettingsChanged"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminApp.mc" id="11" lineNum="26" parent="globals/Galaxy4GarminApp" pc="268436031" symbol="onSettingsChanged"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminApp.mc" id="12" lineNum="20" parent="globals/Galaxy4GarminApp" pc="268436048" symbol="getInitialView"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminApp.mc" id="12" lineNum="21" parent="globals/Galaxy4GarminApp" pc="268436050" symbol="getInitialView"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminApp.mc" id="13" lineNum="7" parent="globals/Galaxy4GarminApp" pc="268436091" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminApp.mc" id="13" lineNum="8" parent="globals/Galaxy4GarminApp" pc="268436093" symbol="initialize"/>
+<entry filename="g:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\gen\\006-B3542-00\\source\\Rez.mcgen" id="15" lineNum="7" parent="globals/Rez" pc="268436112" symbol="&lt;init&gt;"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="16" lineNum="14" parent="globals/AnalogSettingsViewTest" pc="268436136" symbol="&lt;init&gt;"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="17" lineNum="48" parent="globals/AnalogSettingsViewTest" pc="268436155" symbol="onBack"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="17" lineNum="49" parent="globals/AnalogSettingsViewTest" pc="268436157" symbol="onBack"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="17" lineNum="50" parent="globals/AnalogSettingsViewTest" pc="268436178" symbol="onBack"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="18" lineNum="57" parent="globals/AnalogSettingsViewTest" pc="268436181" symbol="onWrap"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="18" lineNum="58" parent="globals/AnalogSettingsViewTest" pc="268436183" symbol="onWrap"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="19" lineNum="53" parent="globals/AnalogSettingsViewTest" pc="268436186" symbol="onDone"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="19" lineNum="54" parent="globals/AnalogSettingsViewTest" pc="268436188" symbol="onDone"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="20" lineNum="16" parent="globals/AnalogSettingsViewTest" pc="268436210" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="20" lineNum="17" parent="globals/AnalogSettingsViewTest" pc="268436212" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="20" lineNum="31" parent="globals/AnalogSettingsViewTest" pc="268436231" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="20" lineNum="32" parent="globals/AnalogSettingsViewTest" pc="268436254" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="21" lineNum="37" parent="globals/AnalogSettingsViewTest" pc="268436311" symbol="onSelect"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="21" lineNum="41" parent="globals/AnalogSettingsViewTest" pc="268436313" symbol="onSelect"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\settings\\AnalogSettingsView.mc" id="21" lineNum="45" parent="globals/AnalogSettingsViewTest" pc="268436331" symbol="onSelect"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="22" lineNum="8" parent="globals/Galaxy4GarminView" pc="268436348" symbol="&lt;init&gt;"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="25" lineNum="24" parent="globals/Galaxy4GarminView" pc="268436367" symbol="onLayout"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="25" lineNum="25" parent="globals/Galaxy4GarminView" pc="268436369" symbol="onLayout"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="27" lineNum="12" parent="globals/Galaxy4GarminView" pc="268436411" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="27" lineNum="13" parent="globals/Galaxy4GarminView" pc="268436413" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="27" lineNum="15" parent="globals/Galaxy4GarminView" pc="268436431" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="27" lineNum="15" parent="globals/Galaxy4GarminView" pc="268436462" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="27" lineNum="16" parent="globals/Galaxy4GarminView" pc="268436521" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="27" lineNum="16" parent="globals/Galaxy4GarminView" pc="268436552" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="27" lineNum="17" parent="globals/Galaxy4GarminView" pc="268436611" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="27" lineNum="17" parent="globals/Galaxy4GarminView" pc="268436642" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="27" lineNum="18" parent="globals/Galaxy4GarminView" pc="268436701" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="27" lineNum="18" parent="globals/Galaxy4GarminView" pc="268436732" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="27" lineNum="20" parent="globals/Galaxy4GarminView" pc="268436791" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="35" parent="globals/Galaxy4GarminView" pc="268436826" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="38" parent="globals/Galaxy4GarminView" pc="268436830" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="39" parent="globals/Galaxy4GarminView" pc="268436858" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="40" parent="globals/Galaxy4GarminView" pc="268436875" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="41" parent="globals/Galaxy4GarminView" pc="268436903" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="42" parent="globals/Galaxy4GarminView" pc="268436920" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="43" parent="globals/Galaxy4GarminView" pc="268436948" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="45" parent="globals/Galaxy4GarminView" pc="268436974" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="46" parent="globals/Galaxy4GarminView" pc="268437002" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="48" parent="globals/Galaxy4GarminView" pc="268437030" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="49" parent="globals/Galaxy4GarminView" pc="268437037" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="50" parent="globals/Galaxy4GarminView" pc="268437054" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="51" parent="globals/Galaxy4GarminView" pc="268437064" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="52" parent="globals/Galaxy4GarminView" pc="268437107" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="53" parent="globals/Galaxy4GarminView" pc="268437117" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="54" parent="globals/Galaxy4GarminView" pc="268437127" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="55" parent="globals/Galaxy4GarminView" pc="268437137" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="56" parent="globals/Galaxy4GarminView" pc="268437186" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="57" parent="globals/Galaxy4GarminView" pc="268437211" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="58" parent="globals/Galaxy4GarminView" pc="268437222" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="61" parent="globals/Galaxy4GarminView" pc="268437235" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="62" parent="globals/Galaxy4GarminView" pc="268437263" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="63" parent="globals/Galaxy4GarminView" pc="268437270" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="68" parent="globals/Galaxy4GarminView" pc="268437288" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="69" parent="globals/Galaxy4GarminView" pc="268437343" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="70" parent="globals/Galaxy4GarminView" pc="268437402" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="71" parent="globals/Galaxy4GarminView" pc="268437456" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="72" parent="globals/Galaxy4GarminView" pc="268437510" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="74" parent="globals/Galaxy4GarminView" pc="268437564" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="77" parent="globals/Galaxy4GarminView" pc="268437629" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="78" parent="globals/Galaxy4GarminView" pc="268437657" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="79" parent="globals/Galaxy4GarminView" pc="268437694" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="80" parent="globals/Galaxy4GarminView" pc="268437708" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="81" parent="globals/Galaxy4GarminView" pc="268437736" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="82" parent="globals/Galaxy4GarminView" pc="268437773" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="83" parent="globals/Galaxy4GarminView" pc="268437831" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="85" parent="globals/Galaxy4GarminView" pc="268437845" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="86" parent="globals/Galaxy4GarminView" pc="268437943" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\Galaxy4GarminView.mc" id="29" lineNum="89" parent="globals/Galaxy4GarminView" pc="268438029" symbol="onUpdate"/>
+<entry filename="g:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\gen\\006-B3542-00\\source\\Rez.mcgen" id="30" lineNum="19" parent="globals/Rez/Layouts" pc="268438054" symbol="WatchFace"/>
+<entry filename="g:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\gen\\006-B3542-00\\source\\Rez.mcgen" id="30" lineNum="20" parent="globals/Rez/Layouts" pc="268438066" symbol="WatchFace"/>
+<entry filename="g:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\gen\\006-B3542-00\\source\\Rez.mcgen" id="30" lineNum="22" parent="globals/Rez/Layouts" pc="268438094" symbol="WatchFace"/>
+<entry filename="g:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\gen\\006-B3542-00\\source\\Rez.mcgen" id="30" lineNum="24" parent="globals/Rez/Layouts" pc="268438206" symbol="WatchFace"/>
+<entry filename="g:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\gen\\006-B3542-00\\source\\Rez.mcgen" id="30" lineNum="26" parent="globals/Rez/Layouts" pc="268438318" symbol="WatchFace"/>
+<entry filename="g:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\gen\\006-B3542-00\\source\\Rez.mcgen" id="30" lineNum="28" parent="globals/Rez/Layouts" pc="268438430" symbol="WatchFace"/>
+<entry filename="g:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\gen\\006-B3542-00\\source\\Rez.mcgen" id="30" lineNum="30" parent="globals/Rez/Layouts" pc="268438542" symbol="WatchFace"/>
+<entry filename="g:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\gen\\006-B3542-00\\source\\Rez.mcgen" id="30" lineNum="32" parent="globals/Rez/Layouts" pc="268438654" symbol="WatchFace"/>
+<entry filename="g:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\gen\\006-B3542-00\\source\\Rez.mcgen" id="30" lineNum="34" parent="globals/Rez/Layouts" pc="268438766" symbol="WatchFace"/>
+<entry filename="g:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Galaxy4Garmin\\source\\gen\\006-B3542-00\\source\\Rez.mcgen" id="30" lineNum="36" parent="globals/Rez/Layouts" pc="268438878" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="7" module="true" symbol="globals/Rez/Menus"/>
+<entry id="8390437" symbol="alignment"/>
+<entry id="8389683" method="true" symbol="onSettingsChanged"/>
+<entry field="true" id="23" symbol="ColorRed"/>
+<entry id="8390424" module="true" symbol="Storage"/>
+<entry field="true" id="26" symbol="MilitaryFormatTitle"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="20" symbol="ColorBlue"/>
+<entry id="9" object="true" symbol="AnalogSettingsViewTest"/>
+<entry field="true" id="17" symbol="AppName"/>
+<entry id="8" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="8389081" method="true" symbol="onBack"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry field="true" id="15" symbol="altTzUTC"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8390422" method="true" symbol="onDone"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389348" symbol="font"/>
+<entry id="14" module="true" symbol="Menus"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry field="true" id="21" symbol="ColorDarkGray"/>
+<entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+<entry field="true" id="8389850" symbol="count"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389349" symbol="justification"/>
+<entry id="12" object="true" symbol="Menu2TestMenu2Delegate"/>
+<entry field="true" id="24" symbol="ColorWhite"/>
+<entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+<entry field="true" id="19" symbol="ColorBlack"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="10" object="true" symbol="Galaxy4GarminApp"/>
+<entry id="8389619" method="true" symbol="onSelect"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry field="true" id="16" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry field="true" id="18" symbol="BackgroundColorTitle"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8390146" module="true" object="true" symbol="Background"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="8390749" method="true" symbol="onWrap"/>
+<entry field="true" id="22" symbol="ColorLightGray"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="11" object="true" symbol="Galaxy4GarminView"/>
+<entry id="8389347" symbol="color"/>
+<entry field="true" id="25" symbol="ForegroundColorTitle"/>
+<entry id="13" module="true" symbol="Layouts"/>
+<entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="8389642" symbol="title"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435546" name="dictionary" stackId="1" startPc="268435506"/>
+<entry arg="true" endPc="268435604" name="dc" stackId="1" startPc="268435548"/>
+<entry arg="true" endPc="268436009" name="item" stackId="1" startPc="268435669"/>
+<entry endPc="268436008" name="iconMenu" stackId="2" startPc="268435701"/>
+<entry arg="true" endPc="268436185" name="key" stackId="1" startPc="268436181"/>
+<entry arg="true" endPc="268436347" name="item" stackId="1" startPc="268436311"/>
+<entry arg="true" endPc="268436410" name="dc" stackId="1" startPc="268436367"/>
+<entry arg="true" endPc="268438053" name="dc" stackId="1" startPc="268436826"/>
+<entry endPc="268438052" name="centerline" stackId="2" startPc="268436830"/>
+<entry endPc="268438052" name="localTime" stackId="3" startPc="268436830"/>
+<entry endPc="268438052" name="zone2" stackId="4" startPc="268436830"/>
+<entry endPc="268438052" name="time2" stackId="5" startPc="268436830"/>
+<entry endPc="268438052" name="date2" stackId="6" startPc="268436830"/>
+<entry endPc="268438052" name="timeFormat" stackId="7" startPc="268436830"/>
+<entry endPc="268438052" name="clockTime" stackId="8" startPc="268436830"/>
+<entry endPc="268438052" name="hours" stackId="9" startPc="268436830"/>
+<entry endPc="268438052" name="gregorianInfo" stackId="10" startPc="268436830"/>
+<entry endPc="268438052" name="monthLong" stackId="11" startPc="268436830"/>
+<entry endPc="268438052" name="dayLong" stackId="12" startPc="268436830"/>
+<entry endPc="268438052" name="hourG" stackId="13" startPc="268436830"/>
+<entry endPc="268438052" name="dayShort" stackId="14" startPc="268436830"/>
+<entry endPc="268438052" name="utcOffset" stackId="15" startPc="268436830"/>
+<entry endPc="268438052" name="altTzOffset" stackId="16" startPc="268436830"/>
+<entry endPc="268438052" name="utc" stackId="17" startPc="268436830"/>
+<entry endPc="268438052" name="altTz" stackId="18" startPc="268436830"/>
+<entry endPc="268438052" name="altTzDay" stackId="19" startPc="268436830"/>
+<entry endPc="268438052" name="timeString" stackId="20" startPc="268436830"/>
+<entry endPc="268438052" name="view" stackId="21" startPc="268436830"/>
+<entry endPc="268438052" name="day" stackId="22" startPc="268436830"/>
+<entry arg="true" endPc="268438964" name="dc" stackId="1" startPc="268438054"/>
+<entry endPc="268438964" name="rez_cmp_local_custom_drawable_99818473410739877039" stackId="2" startPc="268438066"/>
+<entry endPc="268438964" name="rez_cmp_local_text_ZoneLabel" stackId="3" startPc="268438066"/>
+<entry endPc="268438964" name="rez_cmp_local_text_TimeLabel" stackId="4" startPc="268438066"/>
+<entry endPc="268438964" name="rez_cmp_local_text_DateLabel" stackId="5" startPc="268438066"/>
+<entry endPc="268438964" name="rez_cmp_local_text_CenterLabel" stackId="6" startPc="268438066"/>
+<entry endPc="268438964" name="rez_cmp_local_text_Zone2Label" stackId="7" startPc="268438066"/>
+<entry endPc="268438964" name="rez_cmp_local_text_Time2Label" stackId="8" startPc="268438066"/>
+<entry endPc="268438964" name="rez_cmp_local_text_Date2Label" stackId="9" startPc="268438066"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGray"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorWhite"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ForegroundColorTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLightGray"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlack"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/Background" offset="190" parentId="globals" symbolId="Background" type="class"/>
+<dataEntry label="globals/Menu2TestMenu2Delegate" offset="245" parentId="globals" symbolId="Menu2TestMenu2Delegate" type="class"/>
+<dataEntry label="globals/Galaxy4GarminApp" offset="308" parentId="globals" symbolId="Galaxy4GarminApp" type="class"/>
+<dataEntry label="globals/Rez" offset="387" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/AnalogSettingsViewTest" offset="466" parentId="globals" symbolId="AnalogSettingsViewTest" type="class"/>
+<dataEntry label="globals/Galaxy4GarminView" offset="545" parentId="globals" symbolId="Galaxy4GarminView" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="648" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="687" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="726" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="757" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="788" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="899" parentId="Rez" symbolId="JsonData" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435482" name="getApp" startPc="268435457">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435501" name="&lt;init&gt;" parent="Background" startPc="268435483">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435547" name="initialize" parent="Background" startPc="268435502">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435604" name="draw" parent="Background" startPc="268435548">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435623" name="&lt;init&gt;" parent="Menu2TestMenu2Delegate" startPc="268435605">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435647" name="onBack" parent="Menu2TestMenu2Delegate" startPc="268435624">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435668" name="initialize" parent="Menu2TestMenu2Delegate" startPc="268435648">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436009" name="onSelect" parent="Menu2TestMenu2Delegate" startPc="268435669">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436028" name="&lt;init&gt;" parent="Galaxy4GarminApp" startPc="268436010">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="Galaxy4GarminApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436047" name="onSettingsChanged" parent="Galaxy4GarminApp" startPc="268436029">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436090" name="getInitialView" parent="Galaxy4GarminApp" startPc="268436048">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436111" name="initialize" parent="Galaxy4GarminApp" startPc="268436091">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="Galaxy4GarminApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436135" name="&lt;init&gt;" parent="Rez" startPc="268436112">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436154" name="&lt;init&gt;" parent="AnalogSettingsViewTest" startPc="268436136">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436180" name="onBack" parent="AnalogSettingsViewTest" startPc="268436155">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436185" name="onWrap" parent="AnalogSettingsViewTest" startPc="268436181">
+<param id="key"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436209" name="onDone" parent="AnalogSettingsViewTest" startPc="268436186">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436310" name="initialize" parent="AnalogSettingsViewTest" startPc="268436210">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436347" name="onSelect" parent="AnalogSettingsViewTest" startPc="268436311">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436366" name="&lt;init&gt;" parent="Galaxy4GarminView" startPc="268436348">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onExitSleep" parent="Galaxy4GarminView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="Galaxy4GarminView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436410" name="onLayout" parent="Galaxy4GarminView" startPc="268436367">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onEnterSleep" parent="Galaxy4GarminView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436825" name="initialize" parent="Galaxy4GarminView" startPc="268436411">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="Galaxy4GarminView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438053" name="onUpdate" parent="Galaxy4GarminView" startPc="268436826">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438964" name="WatchFace" parent="Layouts" startPc="268438054">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>
