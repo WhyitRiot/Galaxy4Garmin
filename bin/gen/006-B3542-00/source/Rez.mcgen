@@ -17,7 +17,7 @@ module Rez {
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_12213109901712369359 = new Background();
+            var rez_cmp_local_custom_drawable_18151032261954653545 = new Background();
 
             var rez_cmp_local_text_ZoneLabel = new WatchUi.Text({:identifier=>"ZoneLabel", :color=>Graphics.COLOR_GREEN, :locX=>(240 * 0.5), :locY=>5, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
 
@@ -33,7 +33,7 @@ module Rez {
 
             var rez_cmp_local_text_Date2Label = new WatchUi.Text({:identifier=>"Date2Label", :color=>Graphics.COLOR_WHITE, :locX=>(240 * 0.5), :locY=>210, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_XTINY});
 
-            return [rez_cmp_local_custom_drawable_12213109901712369359, rez_cmp_local_text_ZoneLabel, rez_cmp_local_text_TimeLabel, rez_cmp_local_text_DateLabel, rez_cmp_local_text_CenterLabel, rez_cmp_local_text_Zone2Label, rez_cmp_local_text_Time2Label, rez_cmp_local_text_Date2Label] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_18151032261954653545, rez_cmp_local_text_ZoneLabel, rez_cmp_local_text_TimeLabel, rez_cmp_local_text_DateLabel, rez_cmp_local_text_CenterLabel, rez_cmp_local_text_Zone2Label, rez_cmp_local_text_Time2Label, rez_cmp_local_text_Date2Label] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
@@ -42,14 +42,17 @@ module Rez {
 
     module Strings {
         (:initialized) var ColorLightGray as Symbol;
+        (:initialized) var TimeZoneTitle as Symbol;
         (:initialized) var ColorBlue as Symbol;
+        (:initialized) var BackgroundColorTitle as Symbol;
+        (:initialized) var UseMilitaryFormatTitle as Symbol;
+        (:initialized) var ColorDarkGray as Symbol;
+        (:initialized) var ColorBlack as Symbol;
+        (:initialized) var AppName as Symbol;
         (:initialized) var ColorRed as Symbol;
         (:initialized) var ForegroundColorTitle as Symbol;
-        (:initialized) var BackgroundColorTitle as Symbol;
-        (:initialized) var ColorDarkGray as Symbol;
-        (:initialized) var MilitaryFormatTitle as Symbol;
-        (:initialized) var ColorBlack as Symbol;
+        (:initialized) var DayLightSavingsTitle as Symbol;
+        (:initialized) var UTCOffsetTitle as Symbol;
         (:initialized) var ColorWhite as Symbol;
-        (:initialized) var AppName as Symbol;
     } // Strings
 } // Rez

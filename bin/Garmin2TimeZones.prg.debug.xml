@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\manifest.xml"/>
+<pcToLineNum>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesApp.mc" id="1" lineNum="5" parent="globals/Garmin2TimeZonesApp" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesApp.mc" id="2" lineNum="12" parent="globals/Garmin2TimeZonesApp" pc="268435479" symbol="onStart"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesApp.mc" id="3" lineNum="25" parent="globals/Garmin2TimeZonesApp" pc="268435482" symbol="onSettingsChanged"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesApp.mc" id="3" lineNum="26" parent="globals/Garmin2TimeZonesApp" pc="268435484" symbol="onSettingsChanged"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesApp.mc" id="4" lineNum="20" parent="globals/Garmin2TimeZonesApp" pc="268435501" symbol="getInitialView"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesApp.mc" id="4" lineNum="21" parent="globals/Garmin2TimeZonesApp" pc="268435503" symbol="getInitialView"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesApp.mc" id="5" lineNum="7" parent="globals/Garmin2TimeZonesApp" pc="268435544" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesApp.mc" id="5" lineNum="8" parent="globals/Garmin2TimeZonesApp" pc="268435546" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesApp.mc" id="6" lineNum="16" parent="globals/Garmin2TimeZonesApp" pc="268435565" symbol="onStop"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesApp.mc" id="7" lineNum="31" parent="globals" pc="268435568" symbol="getApp"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesApp.mc" id="7" lineNum="32" parent="globals" pc="268435578" symbol="getApp"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesBackground.mc" id="8" lineNum="6" parent="globals/Background" pc="268435594" symbol="&lt;init&gt;"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesBackground.mc" id="9" lineNum="8" parent="globals/Background" pc="268435613" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesBackground.mc" id="9" lineNum="9" parent="globals/Background" pc="268435617" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesBackground.mc" id="9" lineNum="13" parent="globals/Background" pc="268435638" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesBackground.mc" id="10" lineNum="16" parent="globals/Background" pc="268435659" symbol="draw"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesBackground.mc" id="10" lineNum="18" parent="globals/Background" pc="268435661" symbol="draw"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesBackground.mc" id="10" lineNum="19" parent="globals/Background" pc="268435703" symbol="draw"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="11" lineNum="9" parent="globals/Garmin2TimeZonesView" pc="268435716" symbol="&lt;init&gt;"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="14" lineNum="16" parent="globals/Garmin2TimeZonesView" pc="268435735" symbol="onLayout"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="14" lineNum="17" parent="globals/Garmin2TimeZonesView" pc="268435737" symbol="onLayout"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="16" lineNum="11" parent="globals/Garmin2TimeZonesView" pc="268435779" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="16" lineNum="12" parent="globals/Garmin2TimeZonesView" pc="268435781" symbol="initialize"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="27" parent="globals/Garmin2TimeZonesView" pc="268435800" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="30" parent="globals/Garmin2TimeZonesView" pc="268435804" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="31" parent="globals/Garmin2TimeZonesView" pc="268435811" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="32" parent="globals/Garmin2TimeZonesView" pc="268435828" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="35" parent="globals/Garmin2TimeZonesView" pc="268435838" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="36" parent="globals/Garmin2TimeZonesView" pc="268435893" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="37" parent="globals/Garmin2TimeZonesView" pc="268435920" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="38" parent="globals/Garmin2TimeZonesView" pc="268435948" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="40" parent="globals/Garmin2TimeZonesView" pc="268435961" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="41" parent="globals/Garmin2TimeZonesView" pc="268436008" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="42" parent="globals/Garmin2TimeZonesView" pc="268436056" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="43" parent="globals/Garmin2TimeZonesView" pc="268436104" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="44" parent="globals/Garmin2TimeZonesView" pc="268436152" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="45" parent="globals/Garmin2TimeZonesView" pc="268436162" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="46" parent="globals/Garmin2TimeZonesView" pc="268436166" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="48" parent="globals/Garmin2TimeZonesView" pc="268436173" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="49" parent="globals/Garmin2TimeZonesView" pc="268436198" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="50" parent="globals/Garmin2TimeZonesView" pc="268436223" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="51" parent="globals/Garmin2TimeZonesView" pc="268436234" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="52" parent="globals/Garmin2TimeZonesView" pc="268436244" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="54" parent="globals/Garmin2TimeZonesView" pc="268436254" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="55" parent="globals/Garmin2TimeZonesView" pc="268436265" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="56" parent="globals/Garmin2TimeZonesView" pc="268436275" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="58" parent="globals/Garmin2TimeZonesView" pc="268436285" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="61" parent="globals/Garmin2TimeZonesView" pc="268436295" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="62" parent="globals/Garmin2TimeZonesView" pc="268436323" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="64" parent="globals/Garmin2TimeZonesView" pc="268436333" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="65" parent="globals/Garmin2TimeZonesView" pc="268436351" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="67" parent="globals/Garmin2TimeZonesView" pc="268436369" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="68" parent="globals/Garmin2TimeZonesView" pc="268436434" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="72" parent="globals/Garmin2TimeZonesView" pc="268436499" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="73" parent="globals/Garmin2TimeZonesView" pc="268436536" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="74" parent="globals/Garmin2TimeZonesView" pc="268436546" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="75" parent="globals/Garmin2TimeZonesView" pc="268436556" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="76" parent="globals/Garmin2TimeZonesView" pc="268436566" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="79" parent="globals/Garmin2TimeZonesView" pc="268436609" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="80" parent="globals/Garmin2TimeZonesView" pc="268436637" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="81" parent="globals/Garmin2TimeZonesView" pc="268436654" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="82" parent="globals/Garmin2TimeZonesView" pc="268436682" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="83" parent="globals/Garmin2TimeZonesView" pc="268436699" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="85" parent="globals/Garmin2TimeZonesView" pc="268436727" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="86" parent="globals/Garmin2TimeZonesView" pc="268436764" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="88" parent="globals/Garmin2TimeZonesView" pc="268436832" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="89" parent="globals/Garmin2TimeZonesView" pc="268436860" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="91" parent="globals/Garmin2TimeZonesView" pc="268436897" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="92" parent="globals/Garmin2TimeZonesView" pc="268436925" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="94" parent="globals/Garmin2TimeZonesView" pc="268436953" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="95" parent="globals/Garmin2TimeZonesView" pc="268436981" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="96" parent="globals/Garmin2TimeZonesView" pc="268437018" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="98" parent="globals/Garmin2TimeZonesView" pc="268437032" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="99" parent="globals/Garmin2TimeZonesView" pc="268437060" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="100" parent="globals/Garmin2TimeZonesView" pc="268437097" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="101" parent="globals/Garmin2TimeZonesView" pc="268437111" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="102" parent="globals/Garmin2TimeZonesView" pc="268437139" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="103" parent="globals/Garmin2TimeZonesView" pc="268437176" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\source\\Garmin2TimeZonesView.mc" id="18" lineNum="106" parent="globals/Garmin2TimeZonesView" pc="268437262" symbol="onUpdate"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\bin\\gen\\006-B3542-00\\source\\Rez.mcgen" id="19" lineNum="7" parent="globals/Rez" pc="268437287" symbol="&lt;init&gt;"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\bin\\gen\\006-B3542-00\\source\\Rez.mcgen" id="20" lineNum="19" parent="globals/Rez/Layouts" pc="268437311" symbol="WatchFace"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\bin\\gen\\006-B3542-00\\source\\Rez.mcgen" id="20" lineNum="20" parent="globals/Rez/Layouts" pc="268437323" symbol="WatchFace"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\bin\\gen\\006-B3542-00\\source\\Rez.mcgen" id="20" lineNum="22" parent="globals/Rez/Layouts" pc="268437351" symbol="WatchFace"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\bin\\gen\\006-B3542-00\\source\\Rez.mcgen" id="20" lineNum="24" parent="globals/Rez/Layouts" pc="268437463" symbol="WatchFace"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\bin\\gen\\006-B3542-00\\source\\Rez.mcgen" id="20" lineNum="26" parent="globals/Rez/Layouts" pc="268437575" symbol="WatchFace"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\bin\\gen\\006-B3542-00\\source\\Rez.mcgen" id="20" lineNum="28" parent="globals/Rez/Layouts" pc="268437687" symbol="WatchFace"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\bin\\gen\\006-B3542-00\\source\\Rez.mcgen" id="20" lineNum="30" parent="globals/Rez/Layouts" pc="268437799" symbol="WatchFace"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\bin\\gen\\006-B3542-00\\source\\Rez.mcgen" id="20" lineNum="32" parent="globals/Rez/Layouts" pc="268437911" symbol="WatchFace"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\bin\\gen\\006-B3542-00\\source\\Rez.mcgen" id="20" lineNum="34" parent="globals/Rez/Layouts" pc="268438023" symbol="WatchFace"/>
+<entry filename="G:\\Users\\Wyatt\\Documents\\CodeShit\\Garmin\\Garmin2TimeZones\\bin\\gen\\006-B3542-00\\source\\Rez.mcgen" id="20" lineNum="36" parent="globals/Rez/Layouts" pc="268438135" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="7" module="true" symbol="globals/Rez/Menus"/>
+<entry field="true" id="24" symbol="TimeZoneTitle"/>
+<entry id="8389683" method="true" symbol="onSettingsChanged"/>
+<entry field="true" id="20" symbol="ColorRed"/>
+<entry id="8388924" module="true" symbol="Gregorian"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="17" symbol="ColorBlue"/>
+<entry field="true" id="14" symbol="AppName"/>
+<entry id="8" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry field="true" id="26" symbol="UseMilitaryFormatTitle"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry id="9" object="true" symbol="Garmin2TimeZonesApp"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389348" symbol="font"/>
+<entry id="12" module="true" symbol="Menus"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry field="true" id="18" symbol="ColorDarkGray"/>
+<entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389349" symbol="justification"/>
+<entry field="true" id="22" symbol="DayLightSavingsTitle"/>
+<entry field="true" id="21" symbol="ColorWhite"/>
+<entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+<entry field="true" id="16" symbol="ColorBlack"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry field="true" id="25" symbol="UTCOffsetTitle"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="10" object="true" symbol="Garmin2TimeZonesView"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry field="true" id="13" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry field="true" id="15" symbol="BackgroundColorTitle"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8390146" module="true" object="true" symbol="Background"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="19" symbol="ColorLightGray"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8389347" symbol="color"/>
+<entry field="true" id="23" symbol="ForegroundColorTitle"/>
+<entry id="11" module="true" symbol="Layouts"/>
+<entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8388635" module="true" symbol="Application"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435657" name="dictionary" stackId="1" startPc="268435617"/>
+<entry arg="true" endPc="268435715" name="dc" stackId="1" startPc="268435659"/>
+<entry arg="true" endPc="268435778" name="dc" stackId="1" startPc="268435735"/>
+<entry arg="true" endPc="268437286" name="dc" stackId="1" startPc="268435800"/>
+<entry endPc="268437285" name="timeFormat" stackId="2" startPc="268435804"/>
+<entry endPc="268437285" name="clockTime" stackId="3" startPc="268435804"/>
+<entry endPc="268437285" name="hours" stackId="4" startPc="268435804"/>
+<entry endPc="268437285" name="utcOffset" stackId="5" startPc="268435804"/>
+<entry endPc="268437285" name="altTZUTC" stackId="6" startPc="268435804"/>
+<entry endPc="268437285" name="altTzOffset" stackId="7" startPc="268435804"/>
+<entry endPc="268437285" name="utc" stackId="8" startPc="268435804"/>
+<entry endPc="268437285" name="altTz" stackId="9" startPc="268435804"/>
+<entry endPc="268437285" name="altTzDay" stackId="10" startPc="268435804"/>
+<entry endPc="268437285" name="altTzHour" stackId="11" startPc="268435804"/>
+<entry endPc="268437285" name="twelveHour" stackId="12" startPc="268435804"/>
+<entry endPc="268437285" name="meridiem" stackId="13" startPc="268435804"/>
+<entry endPc="268437285" name="timeString" stackId="14" startPc="268435804"/>
+<entry endPc="268437285" name="altTimeString" stackId="15" startPc="268435804"/>
+<entry endPc="268437285" name="gregorianInfo" stackId="16" startPc="268435804"/>
+<entry endPc="268437285" name="monthLong" stackId="17" startPc="268435804"/>
+<entry endPc="268437285" name="dayLong" stackId="18" startPc="268435804"/>
+<entry endPc="268437285" name="hourG" stackId="19" startPc="268435804"/>
+<entry endPc="268437285" name="dayShort" stackId="20" startPc="268435804"/>
+<entry endPc="268437285" name="centerline" stackId="21" startPc="268435804"/>
+<entry endPc="268437285" name="localTime" stackId="22" startPc="268435804"/>
+<entry endPc="268437285" name="day" stackId="23" startPc="268435804"/>
+<entry endPc="268437285" name="zone2" stackId="24" startPc="268435804"/>
+<entry endPc="268437285" name="time2" stackId="25" startPc="268435804"/>
+<entry endPc="268437285" name="date2" stackId="26" startPc="268435804"/>
+<entry endPc="268437285" name="view" stackId="27" startPc="268435804"/>
+<entry arg="true" endPc="268438221" name="dc" stackId="1" startPc="268437311"/>
+<entry endPc="268438221" name="rez_cmp_local_custom_drawable_18151032261954653545" stackId="2" startPc="268437323"/>
+<entry endPc="268438221" name="rez_cmp_local_text_ZoneLabel" stackId="3" startPc="268437323"/>
+<entry endPc="268438221" name="rez_cmp_local_text_TimeLabel" stackId="4" startPc="268437323"/>
+<entry endPc="268438221" name="rez_cmp_local_text_DateLabel" stackId="5" startPc="268437323"/>
+<entry endPc="268438221" name="rez_cmp_local_text_CenterLabel" stackId="6" startPc="268437323"/>
+<entry endPc="268438221" name="rez_cmp_local_text_Zone2Label" stackId="7" startPc="268437323"/>
+<entry endPc="268438221" name="rez_cmp_local_text_Time2Label" stackId="8" startPc="268437323"/>
+<entry endPc="268438221" name="rez_cmp_local_text_Date2Label" stackId="9" startPc="268437323"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="UTCOffsetTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="DayLightSavingsTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="UseMilitaryFormatTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorWhite"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ForegroundColorTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLightGray"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TimeZoneTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGray"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlack"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/Garmin2TimeZonesApp" offset="166" parentId="globals" symbolId="Garmin2TimeZonesApp" type="class"/>
+<dataEntry label="globals/Background" offset="245" parentId="globals" symbolId="Background" type="class"/>
+<dataEntry label="globals/Garmin2TimeZonesView" offset="300" parentId="globals" symbolId="Garmin2TimeZonesView" type="class"/>
+<dataEntry label="globals/Rez" offset="395" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/Rez/Drawables" offset="474" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="513" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="552" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="583" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="614" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="749" parentId="Rez" symbolId="JsonData" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="Garmin2TimeZonesApp" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435481" name="onStart" parent="Garmin2TimeZonesApp" startPc="268435479">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435500" name="onSettingsChanged" parent="Garmin2TimeZonesApp" startPc="268435482">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435543" name="getInitialView" parent="Garmin2TimeZonesApp" startPc="268435501">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435564" name="initialize" parent="Garmin2TimeZonesApp" startPc="268435544">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435567" name="onStop" parent="Garmin2TimeZonesApp" startPc="268435565">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435593" name="getApp" startPc="268435568">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435612" name="&lt;init&gt;" parent="Background" startPc="268435594">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435658" name="initialize" parent="Background" startPc="268435613">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435715" name="draw" parent="Background" startPc="268435659">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435734" name="&lt;init&gt;" parent="Garmin2TimeZonesView" startPc="268435716">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onExitSleep" parent="Garmin2TimeZonesView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="Garmin2TimeZonesView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435778" name="onLayout" parent="Garmin2TimeZonesView" startPc="268435735">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onEnterSleep" parent="Garmin2TimeZonesView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435799" name="initialize" parent="Garmin2TimeZonesView" startPc="268435779">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="Garmin2TimeZonesView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437286" name="onUpdate" parent="Garmin2TimeZonesView" startPc="268435800">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437310" name="&lt;init&gt;" parent="Rez" startPc="268437287">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438221" name="WatchFace" parent="Layouts" startPc="268437311">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

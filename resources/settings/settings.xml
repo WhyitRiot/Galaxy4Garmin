@@ -18,19 +18,19 @@
         </settingConfig>
     </setting>
 
-    <setting propertyKey="@Properties.UseMilitaryFormat" title="@String.UseMilitaryFormatTitle">
+    <setting propertyKey="@Properties.UseMilitaryFormat" title="@Strings.UseMilitaryFormatTitle">
         <settingConfig type="boolean"/>
     </setting>
 
     <setting propertyKey="@Properties.TimeZone" title="@Strings.TimeZoneTitle">
-        <settingConfig type="string" />
+        <settingConfig type="alphaNumeric" />
     </setting>
 
     <setting propertyKey="@Properties.UTCOffset" title="@Strings.UTCOffsetTitle">
-        <settingConfig type="number" />
+        <settingConfig type="numeric" />
     </setting>
 
-    <setting propertyKey="@Properties.DayLightSavings" title="@String.DayLightSavingsTitle">
+    <setting propertyKey="@Properties.DayLightSavings" title="@Strings.DayLightSavingsTitle">
         <settingConfig type="boolean"/>
     </setting>
 

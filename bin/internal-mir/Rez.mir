@@ -1,54 +1,54 @@
-[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 1; ]
 import Toybox.Lang;
-[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 2; ]
+[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 2; ]
 using Toybox.WatchUi;
-[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 3; ]
+[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 3; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 4; ]
+[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 4; ]
 using Toybox.Graphics;
-[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 5; ]
+[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 5; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 7; ]
+[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 7; ]
 module Rez {
-    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 7; ]
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 7; ]
     <init> {
     }
-    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 8; ]
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 8; ]
     module Drawables {
-        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 8; ]
+        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 8; ]
         <init> {
         }
-        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
         var LauncherIcon as Symbol;
     }
-    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 12; ]
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 12; ]
     module Fonts {
-        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 12; ]
+        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 12; ]
         <init> {
         }
     }
-    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 15; ]
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 15; ]
     module JsonData {
-        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 15; ]
+        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 15; ]
         <init> {
         }
     }
-    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 18; ]
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 18; ]
     module Layouts {
-        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 18; ]
+        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 18; ]
         <init> {
         }
-        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 19; ]
+        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 19; ]
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_start:
-[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen" 20 12 ]
-            [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_stop" ]
-            %rez_cmp_local_custom_drawable_12213109901712369359.1 = local;
+G_Users_Wyatt_Documents_CodeShit_Garmin_Garmin2TimeZones_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_start:
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen" 20 12 ]
+            [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Garmin2TimeZones_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Garmin2TimeZones_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_stop" ]
+            %rez_cmp_local_custom_drawable_18151032261954653545.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_12213109901712369359.1 %tmp.1;
-[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen" 22 12 ]
-            [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_stop" ]
+            lputv %rez_cmp_local_custom_drawable_18151032261954653545.1 %tmp.1;
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen" 22 12 ]
+            [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Garmin2TimeZones_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Garmin2TimeZones_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_stop" ]
             %rez_cmp_local_text_ZoneLabel.2 = local;
             %tmp.7 = getm $.Toybox.WatchUi;
             %tmp.8 = getv function ? %tmp.7 :Text;
@@ -84,8 +84,8 @@ G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_sourc
             %tmp.44 = aputv %tmp.43 %tmp.40 %tmp.42;
             %tmp.5 = newc %tmp.8 (%tmp.44);
             lputv %rez_cmp_local_text_ZoneLabel.2 %tmp.5;
-[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen" 24 12 ]
-            [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_stop" ]
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen" 24 12 ]
+            [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Garmin2TimeZones_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Garmin2TimeZones_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_stop" ]
             %rez_cmp_local_text_TimeLabel.3 = local;
             %tmp.47 = getm $.Toybox.WatchUi;
             %tmp.48 = getv function ? %tmp.47 :Text;
@@ -121,8 +121,8 @@ G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_sourc
             %tmp.84 = aputv %tmp.83 %tmp.80 %tmp.82;
             %tmp.45 = newc %tmp.48 (%tmp.84);
             lputv %rez_cmp_local_text_TimeLabel.3 %tmp.45;
-[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen" 26 12 ]
-            [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_stop" ]
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen" 26 12 ]
+            [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Garmin2TimeZones_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Garmin2TimeZones_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_stop" ]
             %rez_cmp_local_text_DateLabel.4 = local;
             %tmp.87 = getm $.Toybox.WatchUi;
             %tmp.88 = getv function ? %tmp.87 :Text;
@@ -158,8 +158,8 @@ G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_sourc
             %tmp.124 = aputv %tmp.123 %tmp.120 %tmp.122;
             %tmp.85 = newc %tmp.88 (%tmp.124);
             lputv %rez_cmp_local_text_DateLabel.4 %tmp.85;
-[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen" 28 12 ]
-            [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_stop" ]
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen" 28 12 ]
+            [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Garmin2TimeZones_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Garmin2TimeZones_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_stop" ]
             %rez_cmp_local_text_CenterLabel.5 = local;
             %tmp.127 = getm $.Toybox.WatchUi;
             %tmp.128 = getv function ? %tmp.127 :Text;
@@ -195,8 +195,8 @@ G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_sourc
             %tmp.164 = aputv %tmp.163 %tmp.160 %tmp.162;
             %tmp.125 = newc %tmp.128 (%tmp.164);
             lputv %rez_cmp_local_text_CenterLabel.5 %tmp.125;
-[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen" 30 12 ]
-            [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_stop" ]
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen" 30 12 ]
+            [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Garmin2TimeZones_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Garmin2TimeZones_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_stop" ]
             %rez_cmp_local_text_Zone2Label.6 = local;
             %tmp.167 = getm $.Toybox.WatchUi;
             %tmp.168 = getv function ? %tmp.167 :Text;
@@ -232,8 +232,8 @@ G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_sourc
             %tmp.204 = aputv %tmp.203 %tmp.200 %tmp.202;
             %tmp.165 = newc %tmp.168 (%tmp.204);
             lputv %rez_cmp_local_text_Zone2Label.6 %tmp.165;
-[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen" 32 12 ]
-            [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_stop" ]
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen" 32 12 ]
+            [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Garmin2TimeZones_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Garmin2TimeZones_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_stop" ]
             %rez_cmp_local_text_Time2Label.7 = local;
             %tmp.207 = getm $.Toybox.WatchUi;
             %tmp.208 = getv function ? %tmp.207 :Text;
@@ -269,8 +269,8 @@ G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_sourc
             %tmp.244 = aputv %tmp.243 %tmp.240 %tmp.242;
             %tmp.205 = newc %tmp.208 (%tmp.244);
             lputv %rez_cmp_local_text_Time2Label.7 %tmp.205;
-[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen" 34 12 ]
-            [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_stop" ]
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen" 34 12 ]
+            [ "G_Users_Wyatt_Documents_CodeShit_Garmin_Garmin2TimeZones_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_start" "G_Users_Wyatt_Documents_CodeShit_Garmin_Garmin2TimeZones_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_stop" ]
             %rez_cmp_local_text_Date2Label.8 = local;
             %tmp.247 = getm $.Toybox.WatchUi;
             %tmp.248 = getv function ? %tmp.247 :Text;
@@ -306,9 +306,9 @@ G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_sourc
             %tmp.284 = aputv %tmp.283 %tmp.280 %tmp.282;
             %tmp.245 = newc %tmp.248 (%tmp.284);
             lputv %rez_cmp_local_text_Date2Label.8 %tmp.245;
-[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen" 36 12 ]
+[ "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen" 36 12 ]
             %tmp.285 = newa Array<WatchUi.Drawable> 8;
-            %tmp.287 = lgetv %rez_cmp_local_custom_drawable_12213109901712369359.1;
+            %tmp.287 = lgetv %rez_cmp_local_custom_drawable_18151032261954653545.1;
             %tmp.288 = dup %tmp.285;
             %tmp.289 = aputv %tmp.288 0 %tmp.287;
             %tmp.291 = lgetv %rez_cmp_local_text_ZoneLabel.2;
@@ -333,42 +333,48 @@ G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_sourc
             %tmp.316 = dup %tmp.313;
             %tmp.317 = aputv %tmp.316 7 %tmp.315;
             ret %tmp.317;
-G_Users_Wyatt_Documents_CodeShit_Garmin_Galaxy4Garmin_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_stop:
+G_Users_Wyatt_Documents_CodeShit_Garmin_Garmin2TimeZones_bin_gen_006_B3542_00_source_Rez_mcgen_19_73_stop:
         }
     }
-    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 40; ]
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 40; ]
     module Menus {
-        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 40; ]
+        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 40; ]
         <init> {
         }
     }
-    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 43; ]
+    [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 43; ]
     module Strings {
-        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 43; ]
+        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 43; ]
         <init> {
         }
-        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 44; @position = 27; initialized = true; ]
+        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 44; @position = 27; initialized = true; ]
         var ColorLightGray as Symbol;
-        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 45; @position = 27; initialized = true; ]
+        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 45; @position = 27; initialized = true; ]
+        var TimeZoneTitle as Symbol;
+        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 46; @position = 27; initialized = true; ]
         var ColorBlue as Symbol;
-        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 46; @position = 27; initialized = true; ]
-        var ColorRed as Symbol;
-        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 47; @position = 27; initialized = true; ]
-        var ForegroundColorTitle as Symbol;
-        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 48; @position = 27; initialized = true; ]
+        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 47; @position = 27; initialized = true; ]
         var BackgroundColorTitle as Symbol;
-        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 49; @position = 27; initialized = true; ]
+        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 48; @position = 27; initialized = true; ]
+        var UseMilitaryFormatTitle as Symbol;
+        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 49; @position = 27; initialized = true; ]
         var ColorDarkGray as Symbol;
-        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 50; @position = 27; initialized = true; ]
-        var MilitaryFormatTitle as Symbol;
-        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 51; @position = 27; initialized = true; ]
+        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 50; @position = 27; initialized = true; ]
         var ColorBlack as Symbol;
-        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 52; @position = 27; initialized = true; ]
-        var ColorWhite as Symbol;
-        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 53; @position = 27; initialized = true; ]
+        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 51; @position = 27; initialized = true; ]
         var AppName as Symbol;
+        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 52; @position = 27; initialized = true; ]
+        var ColorRed as Symbol;
+        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 53; @position = 27; initialized = true; ]
+        var ForegroundColorTitle as Symbol;
+        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 54; @position = 27; initialized = true; ]
+        var DayLightSavingsTitle as Symbol;
+        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 55; @position = 27; initialized = true; ]
+        var UTCOffsetTitle as Symbol;
+        [ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 56; @position = 27; initialized = true; ]
+        var ColorWhite as Symbol;
     }
 }
-[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Galaxy4Garmin\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "G:\Users\Wyatt\Documents\CodeShit\Garmin\Garmin2TimeZones\bin\gen\006-B3542-00\source\Rez.mcgen"; @line = 1; ]
 <init> {
 }

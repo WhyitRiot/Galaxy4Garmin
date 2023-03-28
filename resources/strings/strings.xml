@@ -1,10 +1,13 @@
 <strings>
 
-    <string id="AppName">Galaxy4Garmin</string>
+    <string id="AppName">Garmin2TimeZones</string>
 
     <string id="BackgroundColorTitle">Background Color</string>
     <string id="ForegroundColorTitle">Foreground Color</string>
-    <string id="MilitaryFormatTitle">Military Format for 24 Hour Time</string>
+    <string id="UseMilitaryFormatTitle">Military Format for 24 Hour Time</string>
+    <string id="TimeZoneTitle">Time Zone Name</string>
+    <string id="UTCOffsetTitle">UTC Offset</string>
+    <string id="DayLightSavingsTitle">Daylight Savings</string>
 
     <string id="ColorBlack">Black</string>
     <string id="ColorDarkGray">Dark Gray</string>
